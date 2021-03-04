@@ -1,12 +1,11 @@
-import React, { useEffect, Fragment } from 'react';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators, Dispatch } from 'redux';
 import './App.scss';
 import { StoreInterface, Article, SearchOptionsState } from './redux/reducers';
 import { handleFetchSearchOptions, addArticle } from './saga';
-import { Search } from './Components';
-
-const autocompleteWidth = { width: 400 };
+import { filterArticles } from './helpers';
+import { Search, Articles } from './Components';
 
 interface MapStateToPropsType {
   articles: Article[];
@@ -36,7 +35,12 @@ const _App = ({ articles, searchOptions, handleFetchSearchOptions, addArticle }:
 
   return (
     <div className="wrapper">
-      <Search isLoading={isLoading} list={list} handleAddArticle={handleAddArticle} />
+      <Search
+        isLoading={isLoading}
+        list={filterArticles(list, articles)}
+        handleAddArticle={handleAddArticle}
+      />
+      <Articles articles={articles} />
     </div>
   );
 };

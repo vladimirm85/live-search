@@ -1,4 +1,14 @@
 .wrapper {
   display: flex;
   flex-direction: column;
+
+  .articles {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 20px;
+
+    column-gap: 20px;
+    row-gap: 20px;
+  }
 }
