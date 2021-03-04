@@ -1,0 +1,336 @@
+{
+  "status": 200,
+  "list": [
+    {
+      "id": "id-1",
+      "name": "Article-1",
+      "avatar": "some-url-to-public-image-1",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-2"
+      }
+    },
+    {
+      "id": "id-2",
+      "name": "Article-2",
+      "avatar": "some-url-to-public-image-3",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-4"
+      }
+    },
+    {
+      "id": "id-3",
+      "name": "Article-3",
+      "avatar": "some-url-to-public-image-5",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-6"
+      }
+    },
+    {
+      "id": "id-4",
+      "name": "Article-4",
+      "avatar": "some-url-to-public-image-7",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-8"
+      }
+    },
+    {
+      "id": "id-5",
+      "name": "Article-5",
+      "avatar": "some-url-to-public-image-9",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-10"
+      }
+    },
+    {
+      "id": "id-6",
+      "name": "Article-6",
+      "avatar": "some-url-to-public-image-11",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-12"
+      }
+    },
+    {
+      "id": "id-7",
+      "name": "Article-7",
+      "avatar": "some-url-to-public-image-13",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-14"
+      }
+    },
+    {
+      "id": "id-8",
+      "name": "Article-8",
+      "avatar": "some-url-to-public-image-15",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-16"
+      }
+    },
+    {
+      "id": "id-9",
+      "name": "Article-9",
+      "avatar": "some-url-to-public-image-17",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-18"
+      }
+    },
+    {
+      "id": "id-10",
+      "name": "Article-10",
+      "avatar": "some-url-to-public-image-19",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-20"
+      }
+    },
+    {
+      "id": "id-11",
+      "name": "Article-11",
+      "avatar": "some-url-to-public-image-21",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-22"
+      }
+    },
+    {
+      "id": "id-12",
+      "name": "Article-12",
+      "avatar": "some-url-to-public-image-23",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-24"
+      }
+    },
+    {
+      "id": "id-13",
+      "name": "Article-13",
+      "avatar": "some-url-to-public-image-25",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-26"
+      }
+    },
+    {
+      "id": "id-14",
+      "name": "Article-14",
+      "avatar": "some-url-to-public-image-27",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-28"
+      }
+    },
+    {
+      "id": "id-15",
+      "name": "Article-15",
+      "avatar": "some-url-to-public-image-29",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-30"
+      }
+    },
+    {
+      "id": "id-16",
+      "name": "Article-16",
+      "avatar": "some-url-to-public-image-31",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-32"
+      }
+    },
+    {
+      "id": "id-17",
+      "name": "Article-17",
+      "avatar": "some-url-to-public-image-33",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-34"
+      }
+    },
+    {
+      "id": "id-18",
+      "name": "Article-18",
+      "avatar": "some-url-to-public-image-35",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-36"
+      }
+    },
+    {
+      "id": "id-19",
+      "name": "Article-19",
+      "avatar": "some-url-to-public-image-37",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-38"
+      }
+    },
+    {
+      "id": "id-20",
+      "name": "Article-20",
+      "avatar": "some-url-to-public-image-39",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-40"
+      }
+    },
+    {
+      "id": "id-21",
+      "name": "Article-21",
+      "avatar": "some-url-to-public-image-41",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-42"
+      }
+    },
+    {
+      "id": "id-22",
+      "name": "Article-22",
+      "avatar": "some-url-to-public-image-43",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-44"
+      }
+    },
+    {
+      "id": "id-23",
+      "name": "Article-23",
+      "avatar": "some-url-to-public-image-45",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-46"
+      }
+    },
+    {
+      "id": "id-24",
+      "name": "Article-24",
+      "avatar": "some-url-to-public-image-47",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-48"
+      }
+    },
+    {
+      "id": "id-25",
+      "name": "Article-25",
+      "avatar": "some-url-to-public-image-49",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-50"
+      }
+    },
+    {
+      "id": "id-26",
+      "name": "Article-26",
+      "avatar": "some-url-to-public-image-51",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-52"
+      }
+    },
+    {
+      "id": "id-27",
+      "name": "Article-27",
+      "avatar": "some-url-to-public-image-53",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-54"
+      }
+    },
+    {
+      "id": "id-28",
+      "name": "Article-28",
+      "avatar": "some-url-to-public-image-55",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-56"
+      }
+    },
+    {
+      "id": "id-29",
+      "name": "Article-29",
+      "avatar": "some-url-to-public-image-57",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-58"
+      }
+    },
+    {
+      "id": "id-30",
+      "name": "Article-30",
+      "avatar": "some-url-to-public-image-59",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-60"
+      }
+    },
+    {
+      "id": "id-31",
+      "name": "Article-31",
+      "avatar": "some-url-to-public-image-61",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-62"
+      }
+    },
+    {
+      "id": "id-32",
+      "name": "Article-32",
+      "avatar": "some-url-to-public-image-63",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-64"
+      }
+    },
+    {
+      "id": "id-33",
+      "name": "Article-33",
+      "avatar": "some-url-to-public-image-65",
+      "author": {
+        "firstName": "FName",
+        "lastName": "LName",
+        "avatar": "some-url-to-public-image-66"
+      }
+    }
+  ],
+  "total": 33
+}
