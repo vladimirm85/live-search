@@ -1,9 +1,12 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, Fragment } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators, Dispatch } from 'redux';
 import './App.scss';
 import { StoreInterface, Article, SearchOptionsState } from './redux/reducers';
-import { handleFetchSearchOptions } from './saga';
+import { handleFetchSearchOptions, addArticle } from './saga';
+import { Search } from './Components';
+
+const autocompleteWidth = { width: 400 };
 
 interface MapStateToPropsType {
   articles: Article[];
@@ -12,19 +15,30 @@ interface MapStateToPropsType {
 
 interface MapDispatchToPropsType {
   handleFetchSearchOptions: typeof handleFetchSearchOptions;
+  addArticle: typeof addArticle;
 }
 
 type PropsType = MapStateToPropsType & MapDispatchToPropsType;
 
-export const _App = ({ articles, searchOptions, handleFetchSearchOptions }: PropsType) => {
+const _App = ({ articles, searchOptions, handleFetchSearchOptions, addArticle }: PropsType) => {
   const {
     isLoading,
     searchOptions: { list },
   } = searchOptions;
+
   useEffect(() => {
-    handleFetchSearchOptions('test');
+    handleFetchSearchOptions();
   }, []);
-  return <div>{isLoading ? <p>Loading</p> : <p>Not Loading</p>}</div>;
+
+  const handleAddArticle = (article: Article) => {
+    addArticle(article);
+  };
+
+  return (
+    <div className="wrapper">
+      <Search isLoading={isLoading} list={list} handleAddArticle={handleAddArticle} />
+    </div>
+  );
 };
 
 const mapStateToProps = ({ searchOptions, articles }: StoreInterface): MapStateToPropsType => {
@@ -35,6 +49,6 @@ const mapStateToProps = ({ searchOptions, articles }: StoreInterface): MapStateT
 };
 
 const mapDispatchToProps = (dispatch: Dispatch): MapDispatchToPropsType =>
-  bindActionCreators({ handleFetchSearchOptions }, dispatch);
+  bindActionCreators({ handleFetchSearchOptions, addArticle }, dispatch);
 
 export const App = connect(mapStateToProps, mapDispatchToProps)(_App);

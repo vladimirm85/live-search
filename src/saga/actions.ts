@@ -4,16 +4,10 @@ import { SearchOptions, Article } from '../redux/reducers';
 
 export interface HandleFetchSearchOptions {
   type: SagaActionsTypes.handleFetchSearchOptions;
-  payload: {
-    query: string;
-  };
 }
 
-export const handleFetchSearchOptions = (query: string): HandleFetchSearchOptions => ({
+export const handleFetchSearchOptions = (): HandleFetchSearchOptions => ({
   type: SagaActionsTypes.handleFetchSearchOptions,
-  payload: {
-    query,
-  },
 });
 
 export interface FetchSearchOptionsRequest {
