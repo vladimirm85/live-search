@@ -2,6 +2,7 @@ import { SearchOptionsReducerActionsTypes, SearchOptionsReducerAction } from '..
 import { Article } from './articlesReducer';
 
 export interface SearchOptions {
+  status: number;
   list: Article[];
   total: number;
 }
@@ -15,6 +16,7 @@ export interface SearchOptionsReducerState {
 const initialState: SearchOptionsReducerState = {
   isLoading: true,
   searchOptions: {
+    status: 200,
     list: [],
     total: 0,
   },
